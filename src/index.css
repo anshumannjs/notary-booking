@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Whitney';
+    src: local('Whitney-Book'), url("./fonts/Whitney-Book.otf") format('opentype');
+}
+
+*{
+    font-family: 'Whitney', sans-serif;
+}
+
+.scrollHider::-webkit-scrollbar{
+    display: none;
+}
